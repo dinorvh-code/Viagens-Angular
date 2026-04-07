@@ -1,0 +1,21 @@
+<div class="container">
+
+<h1 class="titulo-motivos">Why Choose Tourz</h1>
+
+<div class="motivos">
+
+@for (item of diferenciais; track item.icone){
+
+<div class="motivo">
+
+<img [src]="item.icone" [alt]="item.icone" class="">
+<h3>{{item.titulo}}</h3>
+<p class="">{{item.descricao}}</p>
+
+</div>
+}
+
+</div>
+
+</div>
+

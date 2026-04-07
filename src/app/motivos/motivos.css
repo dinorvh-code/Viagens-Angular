@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 1920px;
+    height: 350px;
+    margin-top: 200px;
+}
+
+.titulo-motivos{
+    display: flex;
+    justify-content: start;
+    width: 1300px;
+    
+}
+
+.motivos{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 100px;
+   
+}
+
+.motivo{
+    text-align: left;
+    width: 250px;
+    break-inside: auto;
+}
