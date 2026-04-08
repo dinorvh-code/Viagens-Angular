@@ -1,0 +1,29 @@
+<div class="trousp">
+    <h1 class="titulo-toursp">Find Popular Tours</h1>
+    <button class="btn-toursp">See all</button>
+</div>
+
+<div class="container">
+
+
+    @for (item of elementos; track item.imagem){
+
+        <div class="Tour">
+            <img [src]="item.imagem" [alt]="item.imagem" class="img-tour">
+            <p class="minidescricao-destinos-populares">{{item.minidescricao}}</p>
+            <p class="descricao-destinos-populares">{{item.descricao}}</p>
+            <p class="avaliacoes-destinos-populares">{{item.avaliacoes}}</p>
+            <hr class="minihr-destinos-populares">
+            <div class="bloco-abaixo-hr">
+                <p class="dias">{{item.dias}}</p>
+                <div class="custo">
+                    <p class="from">From</p>
+                    <p class="valor">{{item.preco}}</p>
+                </div>
+            </div>
+        </div>
+
+    }
+
+
+</div>

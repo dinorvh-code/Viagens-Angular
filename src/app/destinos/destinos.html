@@ -1,0 +1,23 @@
+<div class="td-btn">
+<h1 class="td">Trending Destinations</h1>
+<button class="btn-destinos">See all</button>
+</div>
+
+<div class="container">
+
+
+@for (item of elementos; track item.imagem){
+
+<div class="destino">
+
+<img [src]="item.imagem" [alt]="item.imagem" class="img-país">
+<h3 class="país">{{item.titulo}}</h3>
+<p class="tourz">{{item.descricao}}</p>
+
+
+</div>
+
+}
+
+
+</div>
