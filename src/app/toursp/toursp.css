@@ -1,0 +1,43 @@
+.toursp{
+display: flex;
+flex-direction: row;
+width: 1920px;
+justify-content: space-evenly;
+gap: 850px;
+margin: 45px;
+}
+
+.btn-toursp{
+    background-color: transparent;
+    border: none;
+}
+
+.container{
+width: 1500px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 50px;
+margin-left: 215px;
+}
+
+.tourp{
+width: 275px;
+height: 450px;
+border: 1px solid black;
+border-radius: 10px;
+justify-content: center;
+align-items: center;
+padding: 50px;
+}
+
+.minidescricao-destinos-populares{
+color: gray;
+font-size: 12.5px;
+}
+
+.descricao-destinos-populares{
+    text-align: left;
+    font-weight: bold;
+}

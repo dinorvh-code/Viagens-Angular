@@ -57,9 +57,6 @@ preco: '$771'
 
 },
 
-
-CONTINUAR
-
 {
 
 imagem: 'assets/images/destinop05.png',
@@ -74,35 +71,35 @@ preco: '$189'
 {
 
 imagem: 'assets/images/destinop06.png',
-minidescricao: 'Paris, France',
-descricao: 'Centipede Tour - Guided Arizona Desert Tour by ATV',
+minidescricao: 'New York, USA',
+descricao: 'Clear Kayak Tour of Shell Key Preserve and Tampa Bay Area',
 avaliacoes: '4.8 (243)',
 dias: '4 days',
-preco: '$189'
+preco: '$225'
 
 },
 
 {
 
 imagem: 'assets/images/destinop07.png',
-minidescricao: 'Paris, France',
-descricao: 'Centipede Tour - Guided Arizona Desert Tour by ATV',
+minidescricao: 'London, UK',
+descricao: 'History and Hauntings of Salem Guided Walking Tour',
 avaliacoes: '4.8 (243)',
 dias: '4 days',
-preco: '$189'
+preco: '$943'
 
 },
 
 {
 
 imagem: 'assets/images/destinop08.png',
-minidescricao: 'Paris, France',
-descricao: 'Centipede Tour - Guided Arizona Desert Tour by ATV',
+minidescricao: 'New York, USA',
+descricao: 'Mauna Kea Summit Sunset and Stars Free Astro Photos Hilo Kona Waikoloa Pick Up',
 avaliacoes: '4.8 (243)',
 dias: '4 days',
-preco: '$189'
+preco: '$771'
 
-},
+}
 
 ]
 
