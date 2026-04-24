@@ -1,0 +1,72 @@
+.caixote{
+    height: 575.13px;
+    border-radius: 15px;
+    width: 1400px;
+    margin-left: 100px;
+     background-image: url('/assets/images/background-desconto.png');
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.textos-caixote{  
+    display: flex;
+    justify-content: center;
+margin-left: 50px;
+}
+
+.caixa-ficticia{
+    height: 1px;
+    width: 1px;
+}
+
+.titulo-caixote{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.promocao-caixote{
+    font-size: 40px;
+    font-weight: bold;
+    color: orangered;
+}
+
+.descricao-caixote{
+    font-size: 14.77px;
+    margin-top: 10px;
+}
+
+.btn-caixote{
+    background-color: orangered;
+    color: white;
+    width: 167.86px;
+    height: 62px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.textos-caixote{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulos-caixote{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.continuacao-titulo-caixote{
+    font-size: 40px;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.section-center{
+    display: flex;
+    justify-content: center;
+}

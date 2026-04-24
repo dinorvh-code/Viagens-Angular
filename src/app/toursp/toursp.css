@@ -18,26 +18,58 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
-gap: 50px;
-margin-left: 215px;
+gap: 60px;
+margin-left: 250px;
 }
 
 .tourp{
-width: 275px;
-height: 450px;
-border: 1px solid black;
+width: 270px;
+height: 425px;
+border: 1px solid lightgray;
 border-radius: 10px;
+display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 50px;
+padding: 15px;
 }
 
 .minidescricao-destinos-populares{
 color: gray;
-font-size: 12.5px;
+font-size: 15px;
+width: 250px;
+display: flex;
 }
 
 .descricao-destinos-populares{
     text-align: left;
     font-weight: bold;
+}
+
+.bloco-abaixo-hr{
+display: flex;
+flex-direction: row;
+width: 250px;
+justify-content: space-between;
+}
+
+.minihr-destinos-populares{
+    width: 250px;
+    font-size: 1px lightgray;
+}
+
+.custo{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.valor{
+    font-weight: bold;
+}
+
+.avaliacoes-destinos-populares{
+    width: 250px;
+    display: flex;
+    justify-content: end;
 }
