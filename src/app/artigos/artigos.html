@@ -1,0 +1,30 @@
+ <section class="section-center">
+
+            <div class="artigos-populares">
+                <div class="titulos-habitos-populares">
+                    <p class="titulo-habitos-populares">Travel Articles</p>
+                    <p class="minititulo-habitos-populares">See all</p>
+                </div>
+
+                <div class="cards-artigos">
+
+                    @for (item of lista; track item.imagem)
+                    
+                    {
+
+                    <div class="card-artigos">
+                        <img [src]="item.imagem" [alt]="item.imagem" class="img-artigo">
+                        <div class="descricao-artigos">
+                            <p class="data">{{item.data}}</p>
+                            <p class="tracinho-artigos">|</p>
+                            <p class="redator-artigos">{{item.redator}}</p>
+                        </div>
+                        <p class="descricao01-artigos">{{item.descricao}}</p>
+                    </div>
+
+                    }   
+
+                </div>
+            </div>
+
+        </section>

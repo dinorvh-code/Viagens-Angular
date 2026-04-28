@@ -8,11 +8,17 @@ import { Toursp } from './toursp/toursp';
 import { Caixote } from './caixote/caixote';
 import { Habitosp } from './habitosp/habitosp';
 import { Tendencias } from './tendencias/tendencias';
+import { Avaliacao } from './avaliacao/avaliacao';
+import { Desconto } from './desconto/desconto';
+import { Artigos } from './artigos/artigos';
+import { Footer } from './footer/footer';
+;
+
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Menu, Banner, Motivos, Destinos, Toursp, Caixote, Habitosp, Tendencias,],
+  imports: [RouterOutlet, Menu, Banner, Motivos, Destinos, Toursp, Caixote, Habitosp, Tendencias, Avaliacao, Desconto, Artigos, Footer],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

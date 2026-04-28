@@ -1,0 +1,45 @@
+.avaliacoes{
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foto-perfil{
+    width: 100px;
+}
+
+.titulo-avaliacoes{
+    font-size: 29.53px;
+    font-weight: bold;
+}
+
+.subtitulo-avaliacoes{
+    font-size: 17.58px;
+    color: orangered;
+}
+
+.descricoes-avaliacoes{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.sujeito-e-profissao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.descricao-avaliacoes{
+    display: flex;
+    width: 604.59px;
+    flex-direction: column;
+}
+
+.section-center{
+    display: flex;
+    justify-content: center;
+}
